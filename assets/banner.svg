@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">D-PoT: Dynamic Planning for LLM-based Graphical User Interface Automation</title>
+  <desc id="desc">Findings of EMNLP 2024. A schematic loop connects planning, action prediction, and execution history.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17182e"/><stop offset="1" stop-color="#2c2845"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#f9b983"/><stop offset="1" stop-color="#c0b2ff"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#8b80a8" opacity=".18"/></pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#b3a6df" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="1280" height="420" rx="22" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="22" fill="url(#dots)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="50" y="42" width="244" height="30" rx="15" fill="#3c3442"/>
+    <text x="67" y="62" fill="#ffd0a6" font-size="12" font-weight="700" letter-spacing="1.3">FINDINGS OF EMNLP 2024</text>
+    <text x="47" y="175" fill="#faf8ff" font-size="94" font-weight="700" letter-spacing="-3">D-PoT</text>
+    <rect x="52" y="197" width="86" height="5" rx="2.5" fill="url(#line)"/>
+    <text x="50" y="246" fill="#eeebf7" font-size="27" font-weight="600">Dynamic Planning for LLM-based</text>
+    <text x="50" y="285" fill="#eeebf7" font-size="27" font-weight="600">Graphical User Interface Automation</text>
+    <text x="50" y="329" fill="#b6adc8" font-size="17">Adapt plans to the current screen and execution history.</text>
+    <text x="50" y="383" fill="#968ba9" font-size="12" letter-spacing="2">GUI AGENTS  /  DYNAMIC PLANNING  /  AITW</text>
+    <path d="M668 61V358" stroke="#736584" opacity=".4"/>
+    <text x="722" y="68" fill="#b3a5cc" font-size="12" letter-spacing="2">DYNAMIC PLANNING OF THOUGHTS</text>
+    <g fill="none" stroke="#b3a6df" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M924 147H1060V197"/>
+      <path d="M1060 259V319H924"/>
+      <path d="M764 319H729V147H764"/>
+    </g>
+    <rect x="765" y="114" width="159" height="66" rx="12" fill="#3b344b" stroke="#c0a8ff"/>
+    <rect x="981" y="196" width="190" height="66" rx="12" fill="#473948" stroke="#f2b383"/>
+    <rect x="765" y="286" width="159" height="66" rx="12" fill="#32344c" stroke="#ada7d8"/>
+    <g font-size="19" font-weight="600" text-anchor="middle">
+      <text x="844" y="154" fill="#e4d8ff">Plan</text>
+      <text x="1076" y="236" fill="#ffd7b5">Predict action</text>
+      <text x="844" y="326" fill="#dedbf3">History</text>
+    </g>
+    <text x="777" y="231" fill="#b9adca" font-size="13">Current screen</text>
+    <path d="M842 212V184" stroke="#b3a6df" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="722" y="383" fill="#968ba9" font-size="12">Method schematic · plan, predict, update</text>
+  </g>
+</svg>
